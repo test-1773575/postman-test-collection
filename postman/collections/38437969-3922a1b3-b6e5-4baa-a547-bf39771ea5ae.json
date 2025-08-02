@@ -4025,7 +4025,7 @@
 							"bearer": [
 								{
 									"key": "token",
-									"value": "4|mLwbkDDGATNh5K0gGmeJZtNh9CEnHFkpCvxlyz5t23aeaae4",
+									"value": "{{supervisor_token}}",
 									"type": "string"
 								}
 							]
@@ -4045,18 +4045,13 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "\r\n{\r\n  \"serrial_number\": \"00003\"\r\n}"
+							"raw": "\r\n{\r\n  \"serrial_number\": \"649528821553\"\r\n}"
 						},
 						"url": {
-							"raw": "http://26.131.177.200:8000/api/borrow",
-							"protocol": "http",
+							"raw": "{{baseURL}}/api/borrow",
 							"host": [
-								"26",
-								"131",
-								"177",
-								"200"
+								"{{baseURL}}"
 							],
-							"port": "8000",
 							"path": [
 								"api",
 								"borrow"
@@ -4160,7 +4155,7 @@
 							"bearer": [
 								{
 									"key": "token",
-									"value": "2|F7BUVgmoqRB2ErY81WSkH4hnIHkT467NtFtB43II21437fea",
+									"value": "{{supervisor_token}}",
 									"type": "string"
 								}
 							]
@@ -4179,15 +4174,10 @@
 							}
 						],
 						"url": {
-							"raw": "http://26.131.177.200:8000/api/showBooks",
-							"protocol": "http",
+							"raw": "{{baseURL}}/api/showBooks",
 							"host": [
-								"26",
-								"131",
-								"177",
-								"200"
+								"{{baseURL}}"
 							],
-							"port": "8000",
 							"path": [
 								"api",
 								"showBooks"
@@ -4265,7 +4255,7 @@
 							"bearer": [
 								{
 									"key": "token",
-									"value": "2|F7BUVgmoqRB2ErY81WSkH4hnIHkT467NtFtB43II21437fea",
+									"value": "{{supervisor_token}}",
 									"type": "string"
 								}
 							]
@@ -4285,7 +4275,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"serrial_number\": \"00003\"\r\n}",
+							"raw": "{\r\n    \"serrial_number\": \"649528821553\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -4293,15 +4283,10 @@
 							}
 						},
 						"url": {
-							"raw": "http://26.131.177.200:8000/api/showBookBorrowers",
-							"protocol": "http",
+							"raw": "{{baseURL}}/api/showBookBorrowers",
 							"host": [
-								"26",
-								"131",
-								"177",
-								"200"
+								"{{baseURL}}"
 							],
-							"port": "8000",
 							"path": [
 								"api",
 								"showBookBorrowers"
