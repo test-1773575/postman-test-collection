@@ -1,0 +1,4674 @@
+{
+	"info": {
+		"_postman_id": "38437969-3922a1b3-b6e5-4baa-a547-bf39771ea5ae",
+		"name": "Tutors(Project 1) Copy",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Auth",
+			"item": [
+				{
+					"name": "Create Student",
+					"id": "38437969-18f61bdc-a731-4102-8a77-709a35cd6428",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "3|iXFgNgOZpOcNN34JaUfnoV0BWeplPpnzt9JcDSX5ee2485c9",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "email",
+									"value": "komy123344589967@gmail.com",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "12345678",
+									"type": "text"
+								},
+								{
+									"key": "name",
+									"value": "mayar",
+									"type": "text"
+								},
+								{
+									"key": "middleName",
+									"value": "alsheekh",
+									"type": "text"
+								},
+								{
+									"key": "lastName",
+									"value": "jomani",
+									"type": "text"
+								},
+								{
+									"key": "phoneNumber",
+									"value": "0940762440",
+									"type": "text"
+								},
+								{
+									"key": "role",
+									"value": "student",
+									"type": "text"
+								},
+								{
+									"key": "previousCertification",
+									"type": "file",
+									"src": "postman-cloud:///1f051025-e87a-4de0-9be3-13d51d687c25"
+								},
+								{
+									"key": "photo",
+									"type": "file",
+									"src": "postman-cloud:///1f051027-199b-4a90-8a9b-e375c78cf30b"
+								},
+								{
+									"key": "class",
+									"value": "10-A",
+									"type": "text"
+								},
+								{
+									"key": "parentName",
+									"value": "sami",
+									"type": "text"
+								},
+								{
+									"key": "parentMiddleName",
+									"value": "salem",
+									"type": "text"
+								},
+								{
+									"key": "parentLastName",
+									"value": "alahmad",
+									"type": "text"
+								},
+								{
+									"key": "parentPhoneNumber",
+									"value": "0940762555",
+									"type": "text"
+								},
+								{
+									"key": "parentEmail",
+									"value": "kesbrez@gmail.com",
+									"type": "text"
+								},
+								{
+									"key": "parentPassword",
+									"value": "12345678",
+									"type": "text"
+								},
+								{
+									"key": "parentJob",
+									"value": "kalb",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/createUser",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"createUser"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Teacher",
+					"id": "38437969-55121624-a05e-4813-baed-56dc679de98d",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "1|qAWPTpxtSLaReO1K3MxQe47qKzkSvwjsZW4Y4LoP5bb89639",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "email",
+									"value": "zozo@gmail.com",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "12345678",
+									"type": "text"
+								},
+								{
+									"key": "name",
+									"value": "mayar",
+									"type": "text"
+								},
+								{
+									"key": "middleName",
+									"value": "alsheekh",
+									"type": "text"
+								},
+								{
+									"key": "lastName",
+									"value": "jomani",
+									"type": "text"
+								},
+								{
+									"key": "phoneNumber",
+									"value": "0966555223",
+									"type": "text"
+								},
+								{
+									"key": "role",
+									"value": "teacher",
+									"type": "text"
+								},
+								{
+									"key": "certification",
+									"type": "file",
+									"src": "postman-cloud:///1f051025-e87a-4de0-9be3-13d51d687c25"
+								},
+								{
+									"key": "photo",
+									"type": "file",
+									"src": "postman-cloud:///1f051027-199b-4a90-8a9b-e375c78cf30b"
+								},
+								{
+									"key": "salary",
+									"value": "100",
+									"type": "text"
+								},
+								{
+									"key": "subject",
+									"value": "Math",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://26.131.177.200:8000/api/createTeacher",
+							"protocol": "http",
+							"host": [
+								"26",
+								"131",
+								"177",
+								"200"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"createTeacher"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Supervisor",
+					"id": "38437969-794d9c7b-bda5-46c5-b029-8267cacfae2b",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "3|iXFgNgOZpOcNN34JaUfnoV0BWeplPpnzt9JcDSX5ee2485c9",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "email",
+									"value": "komy123456997@gmail.com",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "12345678",
+									"type": "text"
+								},
+								{
+									"key": "name",
+									"value": "mayar",
+									"type": "text"
+								},
+								{
+									"key": "middleName",
+									"value": "alsheekh",
+									"type": "text"
+								},
+								{
+									"key": "lastName",
+									"value": "jomani",
+									"type": "text"
+								},
+								{
+									"key": "phoneNumber",
+									"value": "0940762619",
+									"type": "text"
+								},
+								{
+									"key": "role",
+									"value": "supervisor",
+									"type": "text"
+								},
+								{
+									"key": "certification",
+									"type": "file",
+									"src": "postman-cloud:///1f051025-e87a-4de0-9be3-13d51d687c25"
+								},
+								{
+									"key": "photo",
+									"type": "file",
+									"src": "postman-cloud:///1f051027-199b-4a90-8a9b-e375c78cf30b"
+								},
+								{
+									"key": "salary",
+									"value": "100",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://26.131.177.200:8000/api/createSupervisor",
+							"protocol": "http",
+							"host": [
+								"26",
+								"131",
+								"177",
+								"200"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"createSupervisor"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create dean (for testing)",
+					"id": "38437969-85c46488-35f5-4d61-9588-b557652bbfb0",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "9|cYM8RLPGEKTyDWk0o1akxT9EGrd9rXOTkg6O0rQte2c3e4bd",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "email",
+									"value": "majdsalit76@gmail.com",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "12345678",
+									"type": "text"
+								},
+								{
+									"key": "name",
+									"value": "majd",
+									"type": "text"
+								},
+								{
+									"key": "middleName",
+									"value": "abdullah",
+									"type": "text"
+								},
+								{
+									"key": "lastName",
+									"value": "salit",
+									"type": "text"
+								},
+								{
+									"key": "phoneNumber",
+									"value": "0988555111",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://26.131.177.200:8000/api/createDean",
+							"protocol": "http",
+							"host": [
+								"26",
+								"131",
+								"177",
+								"200"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"createDean"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Log In",
+					"id": "38437969-1b4e6d48-fa5d-45b8-81e3-496fbead516e",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "X-Forwarded-For",
+								"value": "138.199.53.240",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "email",
+									"value": "zozo@gmail.com",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "12345678",
+									"type": "text"
+								},
+								{
+									"key": "deviceType",
+									"value": "web",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://26.131.177.200:8000/api/login",
+							"protocol": "http",
+							"host": [
+								"26",
+								"131",
+								"177",
+								"200"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Log Out",
+					"id": "38437969-a3fdb8ab-e76b-4aaa-872e-971776487c05",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "20|0W2w5OmQI6W8YOqZgr2Im3pfpw47w57gjUHTmbq5b0ab150c",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "password",
+									"value": "12345678mm",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/logout",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"logout"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Send Forget Password Otp",
+					"id": "38437969-bfc7e6f3-4324-4416-9612-d02781fa1b37",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "email",
+									"value": "majdsalit76@gmail.com",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/sendForgetPasswordOtp",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"sendForgetPasswordOtp"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Confirm Forget Password Otp",
+					"id": "38437969-ed5caa73-74f6-41c9-b7d3-bd3317a71331",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "otp",
+									"value": "33398",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "majdsalit76@gmail.com",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/confirmForgetPasswordOtp",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"confirmForgetPasswordOtp"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Reset Password",
+					"id": "38437969-35d4c272-8802-4ab1-b213-162392868df9",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "password",
+									"value": "12345678mmm",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "majdsalit76@gmail.com",
+									"type": "text"
+								},
+								{
+									"key": "",
+									"value": "",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/resetPassword",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"resetPassword"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"id": "38437969-a9e6f99d-3d96-47bf-9a9e-7029b5f99652"
+		},
+		{
+			"name": "student attendance management",
+			"item": [
+				{
+					"name": "Upload Justification(student) Copy",
+					"id": "38437969-08324416-5bab-4f8c-a90b-ce978bfa2100",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "2|xpqHGmquFwGoOJaCF2MnotPhsinMAHybwmPSxLbl8e6da272",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "justification",
+									"type": "file",
+									"src": "/C:/Users/majds/OneDrive/Desktop/univesrty results 1.pdf"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/uploadJustification",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"uploadJustification"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Check Justification(supervisor)",
+					"id": "38437969-2c9a45b2-12b0-4388-97b8-0426beb36ac8",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "2|dvzV3gI5vSQLZTghDf91CFiJYU5uvODh6GX20HxQ530e525c",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "password",
+									"value": "12345678mm",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "email",
+									"value": "komy1352003af@gmail.com",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "",
+									"value": "",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/checkJustifications",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"checkJustifications"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Students Attendance Form (teacher)",
+					"id": "38437969-c64de11b-8cdf-4d58-8682-5f109c2d2d67",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "3|B1XzRBkWhrPjuV8rAdcpR0eMaN96pRLRneqwj0X5c6980b15",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"class\": \"10-A\"\r\n}\r\n"
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/studentsAttendanceForm",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"studentsAttendanceForm"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Students Attendance submission (teacher)",
+					"id": "38437969-97a8a93f-38ca-4e28-b84c-2277f7b3ee34",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "3|B1XzRBkWhrPjuV8rAdcpR0eMaN96pRLRneqwj0X5c6980b15",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"session\": 7,\r\n  \"students\": [\r\n    { \"studentId\": 1 }\r\n    ]\r\n}\r\n"
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/studentsAttendanceSubmit",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"studentsAttendanceSubmit"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Check Student Absence (supervisor) (Y-M-D)",
+					"id": "38437969-37abfea6-1c98-4d71-b150-bd28902400cf",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "4|WqZHMFrXKuOU8pZZtb07nhr491pQtxSUDU4mgh9u9f3792e5",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"class\": \"10-A\",\r\n  \"date\": \"2025-06-12\"\r\n}\r\n"
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/checkStudentAbsenceReport",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"checkStudentAbsenceReport"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Check Student Warnings (supervisor)",
+					"id": "38437969-8b88fd56-ac12-452f-b6f3-11a693912eec",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "4|WqZHMFrXKuOU8pZZtb07nhr491pQtxSUDU4mgh9u9f3792e5",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"studentId\": 1\r\n}\r\n"
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/checkStudentWarnings",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"checkStudentWarnings"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Submit Daily Reports (supervisor)",
+					"id": "38437969-248015c0-a7cb-4727-8abe-1e97215dc7b0",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "4|WqZHMFrXKuOU8pZZtb07nhr491pQtxSUDU4mgh9u9f3792e5",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/submitDailyReports",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"submitDailyReports"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Increment Student Absence (supervisor)",
+					"id": "38437969-152c1f45-a24a-4706-be6c-4e41d66eddd4",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "4|WqZHMFrXKuOU8pZZtb07nhr491pQtxSUDU4mgh9u9f3792e5",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"studentId\": 1\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/incrementStudentAbsence",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"incrementStudentAbsence"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Search Student By Name(supervisor)",
+					"id": "38437969-077bc87d-cc1c-447a-88ca-e409b395832b",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "4|WqZHMFrXKuOU8pZZtb07nhr491pQtxSUDU4mgh9u9f3792e5",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"name\": \"mayar\",\r\n  \"middleName\": \"alsheekh\",\r\n  \"lastName\": \"jomani\",\r\n  \"className\": \"10-A\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/searchStudentByName",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"searchStudentByName"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Show All Students(supervisor)",
+					"id": "38437969-46b1197a-12c7-4c41-804c-4cadb05d58c4",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "4|WqZHMFrXKuOU8pZZtb07nhr491pQtxSUDU4mgh9u9f3792e5",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/showAllStudents",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"showAllStudents"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Check Student Attendance History(supervisor)",
+					"id": "38437969-dd773d9f-3ae5-43e6-afd5-020be96f2a39",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "5|a9kr4Q5oSjc9LZyeb2MUwhXlu97IJtpkKADRaCFKe84cfe5d",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/checkStudentAttendanceHistory",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"checkStudentAttendanceHistory"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Show Parent Son(parent)",
+					"id": "38437969-d636fbf9-b224-4064-8df2-9b7467c6c2a7",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "8|Vi0VNAEY32dsfeQgJkL8jKY33rcgQQ7PBzk6Skyd5401fb31",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/showParentSon",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"showParentSon"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"id": "38437969-586158e5-bff0-4f59-90a7-cc0c07237dd2"
+		},
+		{
+			"name": "classes management",
+			"item": [
+				{
+					"name": "Create Classes(supervisor)",
+					"id": "38437969-1803e96b-d2a6-4077-977b-7352d9daf9e3",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "3|p29BUWp047BAmLc3lYlYAoj0iVrrh0lttCZPPcDa8963e5b2",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"className\":\"10-D\",\r\n    \"studentsNum\":43,\r\n    \"currentStudentNumber\":43\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://26.131.177.200:8000/api/createClasses",
+							"protocol": "http",
+							"host": [
+								"26",
+								"131",
+								"177",
+								"200"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"createClasses"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Show Classes(supervisor)",
+					"id": "38437969-6016544b-a2e6-44aa-a529-751bae84c810",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "5|ZCcsUilVOqrB72fN7C30ydkItyg4neXCajw9NyFodb59f78c",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://26.131.177.200:8000/api/showClasses",
+							"protocol": "http",
+							"host": [
+								"26",
+								"131",
+								"177",
+								"200"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"showClasses"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Edit Class(supervisor)",
+					"id": "38437969-1b283ba0-d254-476f-ae0b-91da475435e0",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "4|pYnioOpwNFL7XWrgl6sdcPZbTGHIldndch3HfqUab3418278",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"class_id\":1,\r\n    \"className\": \"10-A\",\r\n    \"studentsNum\":37\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://26.131.177.200:8000/api/editClass",
+							"protocol": "http",
+							"host": [
+								"26",
+								"131",
+								"177",
+								"200"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"editClass"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Assign Student To Class(supervisor)",
+					"id": "38437969-e9226edd-ea51-4e3b-a953-560121ffdb46",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "4|pYnioOpwNFL7XWrgl6sdcPZbTGHIldndch3HfqUab3418278",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"studentId\":63,\r\n    \"new_class_id\": 4\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://26.131.177.200:8000/api/assignStudentToClass",
+							"protocol": "http",
+							"host": [
+								"26",
+								"131",
+								"177",
+								"200"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"assignStudentToClass"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get all students(dean-supervisor)",
+					"id": "38437969-fc6d56f9-737b-4ffa-b6c5-c26499902002",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "4|pYnioOpwNFL7XWrgl6sdcPZbTGHIldndch3HfqUab3418278",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://26.131.177.200:8000/api/getAllStudents",
+							"protocol": "http",
+							"host": [
+								"26",
+								"131",
+								"177",
+								"200"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"getAllStudents"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get all teacher classes with their students(teacher)",
+					"id": "38437969-77e0b7cb-798c-485b-a3f5-a8062e672a42",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "5|tBaJPCTsvf1Bcbek2XzyxLuDf0sqa5hE1avr3IiRa8b8ae12",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://26.131.177.200:8000/api/getAllTeacherStudents",
+							"protocol": "http",
+							"host": [
+								"26",
+								"131",
+								"177",
+								"200"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"getAllTeacherStudents"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get all teachers (dean-supervisor)",
+					"id": "38437969-ebd09f23-ba3d-45ad-934d-42f047eacde8",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://26.131.177.200:8000/api/getAllTeachers",
+							"protocol": "http",
+							"host": [
+								"26",
+								"131",
+								"177",
+								"200"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"getAllTeachers"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get all supervisors (dean)",
+					"id": "38437969-67634c07-36ce-4c18-9505-0161ce44cb45",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "1|ZxcHWyBFO2ISWD6FAQDd0wxLkNYYCw5Ep7LENsvV151ce851",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://26.131.177.200:8000/api/getAllSupervisors",
+							"protocol": "http",
+							"host": [
+								"26",
+								"131",
+								"177",
+								"200"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"getAllSupervisors"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get specific student info (super-dean-teacher)",
+					"id": "38437969-e76e8dac-d2b1-4d5c-8eb2-9b3f736a1820",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "4|mLwbkDDGATNh5K0gGmeJZtNh9CEnHFkpCvxlyz5t23aeaae4",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "student_id",
+									"value": "77",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://26.131.177.200:8000/api/getSpecificStudent",
+							"protocol": "http",
+							"host": [
+								"26",
+								"131",
+								"177",
+								"200"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"getSpecificStudent"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get specific teacher(dean-supervisor)",
+					"id": "38437969-733d2c89-e882-4617-9604-0538cfa92fdf",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "4|mLwbkDDGATNh5K0gGmeJZtNh9CEnHFkpCvxlyz5t23aeaae4",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "teacher_id",
+									"value": "90",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://26.131.177.200:8000/api/getSpecificTeacher",
+							"protocol": "http",
+							"host": [
+								"26",
+								"131",
+								"177",
+								"200"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"getSpecificTeacher"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get all supervisor (dean)",
+					"id": "38437969-4e0e01f7-6de6-422f-a88f-916a827439ea",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "supervisor_id",
+									"value": "1",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://26.131.177.200:8000/api/getSpecificSupervisor",
+							"protocol": "http",
+							"host": [
+								"26",
+								"131",
+								"177",
+								"200"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"getSpecificSupervisor"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get user info(general)",
+					"id": "38437969-89898ba3-3479-40cb-8fd7-c7359c87e595",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "3|QHDWIhQvIV4e0NQLKbVk7cTpY8XLet93V75h18JS00da4827",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://26.131.177.200:8000/api/getUserInfo",
+							"protocol": "http",
+							"host": [
+								"26",
+								"131",
+								"177",
+								"200"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"getUserInfo"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete any user (dean)",
+					"id": "38437969-b25cf460-3e62-4796-9cd9-1b4b44312cae",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "7|SbxaED1XCGKCfy4xW47SmqUcwVmM1eBL9D7bACc46a67323f",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"user_id\": 111\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://26.131.177.200:8000/api/deleteUser",
+							"protocol": "http",
+							"host": [
+								"26",
+								"131",
+								"177",
+								"200"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"deleteUser"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get the paginated students (supervisor-dean)",
+					"id": "38437969-0f86b7b9-9efe-4f13-94dc-b24b7370ff0d",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "4|mLwbkDDGATNh5K0gGmeJZtNh9CEnHFkpCvxlyz5t23aeaae4",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://26.131.177.200:8000/api/getPaginateStudents",
+							"protocol": "http",
+							"host": [
+								"26",
+								"131",
+								"177",
+								"200"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"getPaginateStudents"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete class(supervisor)",
+					"id": "38437969-ebb1f4b4-6a17-4486-8a4a-c4a05540b3e4",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"classId\": 3\r\n}"
+						},
+						"url": {
+							"raw": "http://26.131.177.200:8000/api/deleteClass",
+							"protocol": "http",
+							"host": [
+								"26",
+								"131",
+								"177",
+								"200"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"deleteClass"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "assign Teacher To Class (supervisor)",
+					"id": "38437969-24a2e9b7-f14a-40d9-a81e-d7972e2ce6ba",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "4|pYnioOpwNFL7XWrgl6sdcPZbTGHIldndch3HfqUab3418278",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"teacherId\": 10,\r\n    \"className\": \"10-A\" \r\n   \r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://26.131.177.200:8000/api/assignTeacherToClass",
+							"protocol": "http",
+							"host": [
+								"26",
+								"131",
+								"177",
+								"200"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"assignTeacherToClass"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "show subjects(super-dean)",
+					"id": "38437969-0bc483dc-f4b0-4709-a6cc-f2821a466e3f",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://26.131.177.200:8000/api/showSubjects",
+							"protocol": "http",
+							"host": [
+								"26",
+								"131",
+								"177",
+								"200"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"showSubjects"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get class teachers",
+					"id": "38437969-bed5951f-448d-40de-b95b-6f1488770dcf",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"class_id\": 27\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://26.131.177.200:8000/api/getClassTeachers",
+							"protocol": "http",
+							"host": [
+								"26",
+								"131",
+								"177",
+								"200"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"getClassTeachers"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "unassign teacher to class(supervisor)",
+					"id": "38437969-ae4bf0b8-2b45-45fb-af2f-58620854d2dd",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"teacherId\": 8,\r\n    \"className\": \"10-B\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://26.131.177.200:8000/api/unassignTeacherToClass",
+							"protocol": "http",
+							"host": [
+								"26",
+								"131",
+								"177",
+								"200"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"unassignTeacherToClass"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "over Write Teacher To Class  (supervisor)",
+					"id": "38437969-fc0c2243-02cc-4bc5-a88e-38bed84b6e50",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"teacherId\": 8,\r\n    \"className\": \"10-B\"\r\n}"
+						},
+						"url": {
+							"raw": "http://26.131.177.200:8000/api/overWriteTeacherToClass",
+							"protocol": "http",
+							"host": [
+								"26",
+								"131",
+								"177",
+								"200"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"overWriteTeacherToClass"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"id": "38437969-7b18446a-4603-42c3-bb70-64f6c6633aac"
+		},
+		{
+			"name": "timetables management",
+			"item": [
+				{
+					"name": "Get Student Weekly Schedule(student)",
+					"id": "38437969-a4fc350d-6b10-4ca3-9ea2-a9ad82de08a5",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "2|uZdfkNbESKF0iJMZdX6Y1mtAVpmeE3Gcc4xkpKsJaac1f675",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/getStudentWeeklySchedule",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"getStudentWeeklySchedule"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Weekly Schedule(supervisor)",
+					"id": "38437969-d0be377a-03e9-41b8-ab5b-5893886705e1",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "4|WqZHMFrXKuOU8pZZtb07nhr491pQtxSUDU4mgh9u9f3792e5",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"classId\":3,\r\n    \"day\":\"monday\",\r\n    \"semester\":\"first\",\r\n    \"year\":\"2024/2025\",\r\n    \"subject\":\"math\",\r\n    \"session\":\"1\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/createWeeklySchedule",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"createWeeklySchedule"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Upload Exam Schedule(supervisor)",
+					"id": "38437969-971eb8ab-ece9-40b6-9292-6a5977d44fdf",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "10|tBLWO3tONvksaWxqHjLEB4iIvD4C15S4bCDv3hUzb039756e",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "classId",
+									"value": "3",
+									"type": "text"
+								},
+								{
+									"key": "schedule",
+									"type": "file",
+									"src": "/C:/Users/majds/OneDrive/Desktop/univesrty results 1.pdf"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/uploadExamSchedule",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"uploadExamSchedule"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"id": "38437969-167e09e1-eb15-4695-af2b-7f66d3e06479"
+		},
+		{
+			"name": "global",
+			"item": [
+				{
+					"name": "Get Info(student)",
+					"id": "38437969-b0ad3b6d-d592-425c-abaf-5e41a8c61fed",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "2|uZdfkNbESKF0iJMZdX6Y1mtAVpmeE3Gcc4xkpKsJaac1f675",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/getInfo",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"getInfo"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"id": "38437969-e8115a33-9924-40c1-9747-7fffff39e596"
+		},
+		{
+			"name": "communication",
+			"item": [
+				{
+					"name": "Edit Event",
+					"id": "38437969-9a7daf44-0eda-4ccd-8114-e74ee9e8a577",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "4|mLwbkDDGATNh5K0gGmeJZtNh9CEnHFkpCvxlyz5t23aeaae4",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "event_name",
+									"value": "licking my dick",
+									"type": "text"
+								},
+								{
+									"key": "post",
+									"value": "you should lick my ass as will my dick, otherwise i will stick my dick inide your asshole, komy is god !!!!!!",
+									"type": "text"
+								},
+								{
+									"key": "is_published",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "deleted_media_ids[]",
+									"value": "2",
+									"type": "text"
+								},
+								{
+									"key": "photos[]",
+									"type": "file",
+									"src": [
+										"postman-cloud:///1f04b105-f98b-4a50-b255-454882a54381",
+										"postman-cloud:///1f04b024-f623-47a0-97f4-b51d34e64caf"
+									]
+								}
+							]
+						},
+						"url": {
+							"raw": "http://26.131.177.200:8000/api/editEvent/1",
+							"protocol": "http",
+							"host": [
+								"26",
+								"131",
+								"177",
+								"200"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"editEvent",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Event",
+					"id": "38437969-8ec96c98-0840-4067-884b-e22a6fdcc56a",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/deleteEvent/31",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"deleteEvent",
+								"31"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get my events",
+					"id": "38437969-59c1ded4-50ab-446a-9c71-4151cfd00dd3",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "4|mLwbkDDGATNh5K0gGmeJZtNh9CEnHFkpCvxlyz5t23aeaae4",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://26.131.177.200:8000/api/getEvents",
+							"protocol": "http",
+							"host": [
+								"26",
+								"131",
+								"177",
+								"200"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"getEvents"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get All event's comments",
+					"id": "38437969-4bbc70a9-912e-41b7-b2d9-f923caf58d13",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "2|F7BUVgmoqRB2ErY81WSkH4hnIHkT467NtFtB43II21437fea",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://26.131.177.200:8000/api/getEventComments/1",
+							"protocol": "http",
+							"host": [
+								"26",
+								"131",
+								"177",
+								"200"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"getEventComments",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "add comment",
+					"id": "38437969-a8ab4bb1-04ea-4bc0-8ce9-4d8e953edce3",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "2|F7BUVgmoqRB2ErY81WSkH4hnIHkT467NtFtB43II21437fea",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "event_id",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "content",
+									"value": "لحاس طيزي",
+									"type": "text"
+								},
+								{
+									"key": "parent_id",
+									"value": "25",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://26.131.177.200:8000/api/addComment",
+							"protocol": "http",
+							"host": [
+								"26",
+								"131",
+								"177",
+								"200"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"addComment"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Edit Comment",
+					"id": "38437969-711dfaf9-6e8c-4c5c-bfbe-2595fd4aa459",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "2|F7BUVgmoqRB2ErY81WSkH4hnIHkT467NtFtB43II21437fea",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "content",
+									"value": "nuts !!!!",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://26.131.177.200:8000/api/editComment/8",
+							"protocol": "http",
+							"host": [
+								"26",
+								"131",
+								"177",
+								"200"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"editComment",
+								"8"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Comment",
+					"id": "38437969-12f2dbed-2e44-4de7-b993-1338a52961f2",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "2|F7BUVgmoqRB2ErY81WSkH4hnIHkT467NtFtB43II21437fea",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://26.131.177.200:8000/api/deleteComment/2",
+							"protocol": "http",
+							"host": [
+								"26",
+								"131",
+								"177",
+								"200"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"deleteComment",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add Event",
+					"id": "38437969-31d55aa0-ee0e-4358-a278-49e24cf2e7b4",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "4|mLwbkDDGATNh5K0gGmeJZtNh9CEnHFkpCvxlyz5t23aeaae4",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "event_name",
+									"value": "just trying to publish couple events !!",
+									"type": "text"
+								},
+								{
+									"key": "post",
+									"value": "nothing important",
+									"type": "text"
+								},
+								{
+									"key": "is_published",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "photos[]",
+									"type": "file",
+									"src": [
+										"postman-cloud:///1f04b849-4f7f-4610-a866-e13bb26b4dca",
+										"postman-cloud:///1f04b849-4f9a-43c0-9aaa-aa4bbe8cb28a",
+										"postman-cloud:///1f04b105-f98b-4a50-b255-454882a54381",
+										"postman-cloud:///1f04b024-f623-47a0-97f4-b51d34e64caf"
+									]
+								}
+							]
+						},
+						"url": {
+							"raw": "http://26.131.177.200:8000/api/addEvent",
+							"protocol": "http",
+							"host": [
+								"26",
+								"131",
+								"177",
+								"200"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"addEvent"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get All Published Events",
+					"id": "38437969-960a82e8-a901-403b-8900-160d8a03cf6e",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "2|F7BUVgmoqRB2ErY81WSkH4hnIHkT467NtFtB43II21437fea",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://26.131.177.200:8000/api/getAllPublishedEvents",
+							"protocol": "http",
+							"host": [
+								"26",
+								"131",
+								"177",
+								"200"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"getAllPublishedEvents"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "show reported comments (supervisor)",
+					"id": "38437969-2eff4056-3893-497f-9a7f-136973362038",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "4|mLwbkDDGATNh5K0gGmeJZtNh9CEnHFkpCvxlyz5t23aeaae4",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://26.131.177.200:8000/api/showReportedComments/1",
+							"protocol": "http",
+							"host": [
+								"26",
+								"131",
+								"177",
+								"200"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"showReportedComments",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "report a comment",
+					"id": "38437969-1052968c-439c-4726-a460-86514608cfa7",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "4|mLwbkDDGATNh5K0gGmeJZtNh9CEnHFkpCvxlyz5t23aeaae4",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "comment_id",
+									"value": "6",
+									"type": "text"
+								},
+								{
+									"key": "reason",
+									"value": "just for try",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://26.131.177.200:8000/api/reportComment",
+							"protocol": "http",
+							"host": [
+								"26",
+								"131",
+								"177",
+								"200"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"reportComment"
+							],
+							"query": [
+								{
+									"key": "",
+									"value": null,
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "make reaction",
+					"id": "38437969-3c520a19-dc5a-48ce-bb60-01bf4c87cce8",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "2|F7BUVgmoqRB2ErY81WSkH4hnIHkT467NtFtB43II21437fea",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"reaction\": \"love\",\r\n    \"reactable_id\": 5,\r\n    \"reactable_type\": \"comment\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://26.131.177.200:8000/api/react",
+							"protocol": "http",
+							"host": [
+								"26",
+								"131",
+								"177",
+								"200"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"react"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get Reactions",
+					"id": "38437969-74e5026e-08c7-43ed-b681-4c48fc1b88f1",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "2|F7BUVgmoqRB2ErY81WSkH4hnIHkT467NtFtB43II21437fea",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \r\n    \"reactable_id\": 1,\r\n    \"reactable_type\": \"event\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://26.131.177.200:8000/api/getReactions",
+							"protocol": "http",
+							"host": [
+								"26",
+								"131",
+								"177",
+								"200"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"getReactions"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "shareEvent",
+					"id": "38437969-4765533b-3c2c-4c18-a983-e2ef69ffc4fc",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "2|F7BUVgmoqRB2ErY81WSkH4hnIHkT467NtFtB43II21437fea",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"event_id\": 1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://26.131.177.200:8000/api/shareEvent",
+							"protocol": "http",
+							"host": [
+								"26",
+								"131",
+								"177",
+								"200"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"shareEvent"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get supervisor events",
+					"id": "38437969-9ff065f9-4605-4648-aa3c-bf2f323a2d04",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "2|F7BUVgmoqRB2ErY81WSkH4hnIHkT467NtFtB43II21437fea",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"user_id\": 108\r\n}"
+						},
+						"url": {
+							"raw": "http://26.131.177.200:8000/api/getUserEvents",
+							"protocol": "http",
+							"host": [
+								"26",
+								"131",
+								"177",
+								"200"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"getUserEvents"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"id": "38437969-491420c1-7e98-4612-b70e-78801737e93f"
+		},
+		{
+			"name": "marks management",
+			"item": [
+				{
+					"name": "Upload Mark Excel Cheat",
+					"id": "38437969-3f960706-946b-45b4-b8ea-41436275df8d",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "2|F7BUVgmoqRB2ErY81WSkH4hnIHkT467NtFtB43II21437fea",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "multipart/form-data",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "multipart/form-data",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "class_id",
+									"value": "3",
+									"type": "text"
+								},
+								{
+									"key": "excel_file",
+									"type": "file",
+									"src": "postman-cloud:///1f05d54b-8024-4d40-92dc-23f5d56eaf6e"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://26.131.177.200:8000/api/uploadMarkExcelCheat",
+							"protocol": "http",
+							"host": [
+								"26",
+								"131",
+								"177",
+								"200"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"uploadMarkExcelCheat"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get All Teacher Info",
+					"id": "38437969-32255d06-52e0-44b0-9005-49406d571803",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "2|F7BUVgmoqRB2ErY81WSkH4hnIHkT467NtFtB43II21437fea",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://26.131.177.200:8000/api/getAllTeacherInfo",
+							"protocol": "http",
+							"host": [
+								"26",
+								"131",
+								"177",
+								"200"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"getAllTeacherInfo"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Student Get Result",
+					"id": "38437969-3a71f0bf-3175-41b0-bb4f-5345c7319e90",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "3|QHDWIhQvIV4e0NQLKbVk7cTpY8XLet93V75h18JS00da4827",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"semester\": \"Second\",\r\n    \"type\":\"mid-term\",\r\n    \"year\": 2025\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://26.131.177.200:8000/api/studentGetResult",
+							"protocol": "http",
+							"host": [
+								"26",
+								"131",
+								"177",
+								"200"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"studentGetResult"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get Empty Excel Cheat For Marks",
+					"id": "38437969-59782f24-70a1-4fa3-837a-8ab07ac45be9",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "2|F7BUVgmoqRB2ErY81WSkH4hnIHkT467NtFtB43II21437fea",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\r\n\"classID\": 3,\r\n\"semester\": \"Second\",\r\n\"type\": \"mid-term\"\r\n\r\n\r\n\r\n\r\n}"
+						},
+						"url": {
+							"raw": "http://26.131.177.200:8000/api/getEmptyExcelCheatForMarks",
+							"protocol": "http",
+							"host": [
+								"26",
+								"131",
+								"177",
+								"200"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"getEmptyExcelCheatForMarks"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get Marks Profile ",
+					"id": "38437969-8c73fe70-4b21-4dd7-a825-54d1f087ee80",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "2|F7BUVgmoqRB2ErY81WSkH4hnIHkT467NtFtB43II21437fea",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "\r\n{\r\n  \"student_id\": 78,\r\n  \"semester\": \"Second\"\r\n}"
+						},
+						"url": {
+							"raw": "http://26.131.177.200:8000/api/getMarksProfile",
+							"protocol": "http",
+							"host": [
+								"26",
+								"131",
+								"177",
+								"200"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"getMarksProfile"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get Class Marks (teacher)",
+					"id": "38437969-b37a09b4-fc9f-4023-a140-064e18971123",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "2|F7BUVgmoqRB2ErY81WSkH4hnIHkT467NtFtB43II21437fea",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "\r\n{\r\n  \"class_id\": 3,\r\n  \"semester\": \"Second\"\r\n}"
+						},
+						"url": {
+							"raw": "http://26.131.177.200:8000/api/getClassMarks",
+							"protocol": "http",
+							"host": [
+								"26",
+								"131",
+								"177",
+								"200"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"getClassMarks"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"id": "38437969-4701e63d-99c0-4376-ac90-be711c917224"
+		},
+		{
+			"name": "library management",
+			"item": [
+				{
+					"name": "create book",
+					"id": "38437969-c7ab3aad-307f-4820-a3de-97a1b01a0490",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "4|mLwbkDDGATNh5K0gGmeJZtNh9CEnHFkpCvxlyz5t23aeaae4",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "title",
+									"value": "Ayoub Patience Using Graphics, Modern Approach ",
+									"type": "text"
+								},
+								{
+									"key": "author",
+									"value": "Faculty of IT Engineering",
+									"type": "text"
+								},
+								{
+									"key": "category",
+									"value": "Human Development, Thrill",
+									"type": "text"
+								},
+								{
+									"key": "serial_number",
+									"value": "00003",
+									"type": "text"
+								},
+								{
+									"key": "publisher",
+									"value": "Jaramana-Farms Street",
+									"type": "text"
+								},
+								{
+									"key": "shelf_location",
+									"value": "in my ass",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://26.131.177.200:8000/api/createBook",
+							"protocol": "http",
+							"host": [
+								"26",
+								"131",
+								"177",
+								"200"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"createBook"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update book",
+					"id": "38437969-1d46eb33-850d-442c-813a-cb6ac256a750",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "title",
+									"value": "Ayoub Patience Using Graphics, Modern Approach",
+									"type": "text"
+								},
+								{
+									"key": "author",
+									"value": "Faculty of IT Engineering",
+									"type": "text"
+								},
+								{
+									"key": "category",
+									"value": "Human Development, Thrill",
+									"type": "text"
+								},
+								{
+									"key": "serial_number",
+									"value": "00001",
+									"type": "text"
+								},
+								{
+									"key": "publisher",
+									"value": "Jaramana-Farms Street",
+									"type": "text"
+								},
+								{
+									"key": "shelf_location",
+									"value": "in my ass",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "no discription !!",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://26.131.177.200:8000/api/updateBook/3",
+							"protocol": "http",
+							"host": [
+								"26",
+								"131",
+								"177",
+								"200"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"updateBook",
+								"3"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete book",
+					"id": "38437969-e391c291-fdab-4a15-b314-60c2ecf04c03",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "4|mLwbkDDGATNh5K0gGmeJZtNh9CEnHFkpCvxlyz5t23aeaae4",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://26.131.177.200:8000/api/deleteBook/3",
+							"protocol": "http",
+							"host": [
+								"26",
+								"131",
+								"177",
+								"200"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"deleteBook",
+								"3"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "borrow book",
+					"id": "38437969-21443245-97d0-43dc-ba14-ef96552a776b",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "4|mLwbkDDGATNh5K0gGmeJZtNh9CEnHFkpCvxlyz5t23aeaae4",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "\r\n{\r\n  \"serrial_number\": \"00003\"\r\n}"
+						},
+						"url": {
+							"raw": "http://26.131.177.200:8000/api/borrow",
+							"protocol": "http",
+							"host": [
+								"26",
+								"131",
+								"177",
+								"200"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"borrow"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "modify the borrowing",
+					"id": "38437969-b87ce958-8577-4032-95d1-c95efc4b3279",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "4|mLwbkDDGATNh5K0gGmeJZtNh9CEnHFkpCvxlyz5t23aeaae4",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "borrow_id",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "borrow_status",
+									"value": "accepted",
+									"type": "text"
+								},
+								{
+									"key": "borrow_date",
+									"value": "2025-7-22",
+									"type": "text"
+								},
+								{
+									"key": "due_date",
+									"value": "2025-7-25",
+									"type": "text"
+								},
+								{
+									"key": "returned_date",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "book_status",
+									"value": "borrowed",
+									"type": "text"
+								},
+								{
+									"key": "notes",
+									"value": "kkkkkkkkkkkkkkk",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://26.131.177.200:8000/api/modifyBorrow",
+							"protocol": "http",
+							"host": [
+								"26",
+								"131",
+								"177",
+								"200"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"modifyBorrow"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "show the books",
+					"id": "38437969-c1ed921f-5ba1-4adc-adfa-40836689bfd2",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "2|F7BUVgmoqRB2ErY81WSkH4hnIHkT467NtFtB43II21437fea",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://26.131.177.200:8000/api/showBooks",
+							"protocol": "http",
+							"host": [
+								"26",
+								"131",
+								"177",
+								"200"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"showBooks"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "show book by serrial number ",
+					"id": "38437969-c0efb894-78bc-40d3-b967-e29123b83ca8",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "2|F7BUVgmoqRB2ErY81WSkH4hnIHkT467NtFtB43II21437fea",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"serrial_number\": \"00003\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://26.131.177.200:8000/api/showBookBySerrialNumber",
+							"protocol": "http",
+							"host": [
+								"26",
+								"131",
+								"177",
+								"200"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"showBookBySerrialNumber"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "showBookBorrowers",
+					"id": "38437969-bd10973c-64a7-42f0-a944-94ac597878b3",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "2|F7BUVgmoqRB2ErY81WSkH4hnIHkT467NtFtB43II21437fea",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"serrial_number\": \"00003\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://26.131.177.200:8000/api/showBookBorrowers",
+							"protocol": "http",
+							"host": [
+								"26",
+								"131",
+								"177",
+								"200"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"showBookBorrowers"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get Borrow Order",
+					"id": "38437969-208e523a-46c1-4be2-a513-69d41a0fc2b4",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "4|mLwbkDDGATNh5K0gGmeJZtNh9CEnHFkpCvxlyz5t23aeaae4",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "\r\n{\r\n  \"serrial_number\": \"00003\"\r\n}"
+						},
+						"url": {
+							"raw": "http://26.131.177.200:8000/api/getBorrowOrder",
+							"protocol": "http",
+							"host": [
+								"26",
+								"131",
+								"177",
+								"200"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"getBorrowOrder"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"id": "38437969-69563840-5202-445c-bbb5-d959dab4abb2"
+		},
+		{
+			"name": "subjects management",
+			"item": [
+				{
+					"name": "create subject (supervisor)",
+					"id": "38437969-7ba33964-010c-4f73-b8d5-3f3c13b4ce07",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"subjectName\": \"Physics\",\r\n    \"minMark\": 50,\r\n    \"maxMark\": 100,\r\n    \"grade\": \"9\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://26.131.177.200:8000/api/createSubject",
+							"protocol": "http",
+							"host": [
+								"26",
+								"131",
+								"177",
+								"200"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"createSubject"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get all the subjects (supervisor)",
+					"id": "38437969-f218b485-112a-4fd4-83f5-557535541a3f",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://26.131.177.200:8000/api/getAllSubjects",
+							"protocol": "http",
+							"host": [
+								"26",
+								"131",
+								"177",
+								"200"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"getAllSubjects"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get subject by id (supervisor)",
+					"id": "38437969-e85a8069-dfdb-4bdb-a148-d15c128f0014",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"subjectId\": 1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://26.131.177.200:8000/api/getSubjectById",
+							"protocol": "http",
+							"host": [
+								"26",
+								"131",
+								"177",
+								"200"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"getSubjectById"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update  subject  (supervisor)",
+					"id": "38437969-eaf00c9a-4309-4585-ad2c-7bcc196a5f9c",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"subjectId\": 78,\r\n    \"minMark\": 70,\r\n    \"maxMark\": 100\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://26.131.177.200:8000/api/updateSubject",
+							"protocol": "http",
+							"host": [
+								"26",
+								"131",
+								"177",
+								"200"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"updateSubject"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete subject (supervisor)",
+					"id": "38437969-698d27dc-4321-47d0-af04-1dbd88227bc4",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"subjectId\": 1\r\n}\r\n"
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/deleteSubject",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"deleteSubject"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"id": "38437969-8565e7f9-3bcc-43b0-9059-98cd65ed00f7"
+		},
+		{
+			"name": "permission management",
+			"item": [
+				{
+					"name": "assign permission",
+					"id": "38437969-1e54dc20-364d-4c2f-bf15-1419c9fef9e7",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "1|qAWPTpxtSLaReO1K3MxQe47qKzkSvwjsZW4Y4LoP5bb89639",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"user_id\": 108,\r\n    \"permission\": \"Library\"\r\n}"
+						},
+						"url": {
+							"raw": "http://26.131.177.200:8000/api/assignPermission",
+							"protocol": "http",
+							"host": [
+								"26",
+								"131",
+								"177",
+								"200"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"assignPermission"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"id": "38437969-7462b8e9-0fe7-4844-8805-bf75ce1062d2"
+		}
+	]
+}
