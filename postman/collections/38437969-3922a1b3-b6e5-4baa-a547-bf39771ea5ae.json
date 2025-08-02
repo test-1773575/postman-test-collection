@@ -4327,7 +4327,7 @@
 							"bearer": [
 								{
 									"key": "token",
-									"value": "4|mLwbkDDGATNh5K0gGmeJZtNh9CEnHFkpCvxlyz5t23aeaae4",
+									"value": "{{supervisor_token}}",
 									"type": "string"
 								}
 							]
@@ -4350,15 +4350,10 @@
 							"raw": "\r\n{\r\n  \"serrial_number\": \"00003\"\r\n}"
 						},
 						"url": {
-							"raw": "http://26.131.177.200:8000/api/getBorrowOrder",
-							"protocol": "http",
+							"raw": "{{baseURL}}/api/getBorrowOrder",
 							"host": [
-								"26",
-								"131",
-								"177",
-								"200"
+								"{{baseURL}}"
 							],
-							"port": "8000",
 							"path": [
 								"api",
 								"getBorrowOrder"
