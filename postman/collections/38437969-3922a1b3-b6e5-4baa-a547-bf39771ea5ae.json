@@ -4077,7 +4077,7 @@
 							"bearer": [
 								{
 									"key": "token",
-									"value": "4|mLwbkDDGATNh5K0gGmeJZtNh9CEnHFkpCvxlyz5t23aeaae4",
+									"value": "{{supervisor_token}}",
 									"type": "string"
 								}
 							]
@@ -4136,15 +4136,10 @@
 							]
 						},
 						"url": {
-							"raw": "http://26.131.177.200:8000/api/modifyBorrow",
-							"protocol": "http",
+							"raw": "{{baseURL}}/api/modifyBorrow",
 							"host": [
-								"26",
-								"131",
-								"177",
-								"200"
+								"{{baseURL}}"
 							],
-							"port": "8000",
 							"path": [
 								"api",
 								"modifyBorrow"
