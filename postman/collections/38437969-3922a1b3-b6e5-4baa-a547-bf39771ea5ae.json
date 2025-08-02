@@ -4342,7 +4342,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "\r\n{\r\n  \"serrial_number\": \"00003\"\r\n}"
+							"raw": "{\r\n    \"serrial_number\": \"123458\"\r\n}"
 						},
 						"url": {
 							"raw": "{{baseURL}}/api/getBorrowOrder",
