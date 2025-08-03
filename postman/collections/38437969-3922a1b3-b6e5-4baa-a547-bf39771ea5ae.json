@@ -1,8 +1,9 @@
 {
 	"info": {
-		"_postman_id": "38437969-3922a1b3-b6e5-4baa-a547-bf39771ea5ae",
-		"name": "Tutors(Project 1) Copy",
-		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+		"_postman_id": "d9a88176-bcb6-4a18-b56e-5e95f98c552f",
+		"name": "Tutors(Project 1)",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33949129"
 	},
 	"item": [
 		{
@@ -10,10 +11,6 @@
 			"item": [
 				{
 					"name": "Create Student",
-					"id": "38437969-18f61bdc-a731-4102-8a77-709a35cd6428",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
 					"request": {
 						"auth": {
 							"type": "bearer",
@@ -148,10 +145,6 @@
 				},
 				{
 					"name": "Create Teacher",
-					"id": "38437969-55121624-a05e-4813-baed-56dc679de98d",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
 					"request": {
 						"auth": {
 							"type": "bearer",
@@ -256,10 +249,6 @@
 				},
 				{
 					"name": "Create Supervisor",
-					"id": "38437969-794d9c7b-bda5-46c5-b029-8267cacfae2b",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
 					"request": {
 						"auth": {
 							"type": "bearer",
@@ -359,10 +348,6 @@
 				},
 				{
 					"name": "Create dean (for testing)",
-					"id": "38437969-85c46488-35f5-4d61-9588-b557652bbfb0",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
 					"request": {
 						"auth": {
 							"type": "bearer",
@@ -442,10 +427,6 @@
 				},
 				{
 					"name": "Log In",
-					"id": "38437969-1b4e6d48-fa5d-45b8-81e3-496fbead516e",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
 					"request": {
 						"auth": {
 							"type": "noauth"
@@ -508,10 +489,6 @@
 				},
 				{
 					"name": "Log Out",
-					"id": "38437969-a3fdb8ab-e76b-4aaa-872e-971776487c05",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
 					"request": {
 						"auth": {
 							"type": "bearer",
@@ -566,10 +543,6 @@
 				},
 				{
 					"name": "Send Forget Password Otp",
-					"id": "38437969-bfc7e6f3-4324-4416-9612-d02781fa1b37",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
 					"request": {
 						"method": "POST",
 						"header": [
@@ -614,10 +587,6 @@
 				},
 				{
 					"name": "Confirm Forget Password Otp",
-					"id": "38437969-ed5caa73-74f6-41c9-b7d3-bd3317a71331",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
 					"request": {
 						"auth": {
 							"type": "noauth"
@@ -670,10 +639,6 @@
 				},
 				{
 					"name": "Reset Password",
-					"id": "38437969-35d4c272-8802-4ab1-b213-162392868df9",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
 					"request": {
 						"auth": {
 							"type": "noauth"
@@ -730,18 +695,13 @@
 					},
 					"response": []
 				}
-			],
-			"id": "38437969-a9e6f99d-3d96-47bf-9a9e-7029b5f99652"
+			]
 		},
 		{
 			"name": "student attendance management",
 			"item": [
 				{
 					"name": "Upload Justification(student) Copy",
-					"id": "38437969-08324416-5bab-4f8c-a90b-ce978bfa2100",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
 					"request": {
 						"auth": {
 							"type": "bearer",
@@ -796,7 +756,6 @@
 				},
 				{
 					"name": "Check Justification(supervisor)",
-					"id": "38437969-2c9a45b2-12b0-4388-97b8-0426beb36ac8",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -867,7 +826,6 @@
 				},
 				{
 					"name": "Students Attendance Form (teacher)",
-					"id": "38437969-c64de11b-8cdf-4d58-8682-5f109c2d2d67",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -919,10 +877,6 @@
 				},
 				{
 					"name": "Students Attendance submission (teacher)",
-					"id": "38437969-97a8a93f-38ca-4e28-b84c-2277f7b3ee34",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
 					"request": {
 						"auth": {
 							"type": "bearer",
@@ -971,7 +925,6 @@
 				},
 				{
 					"name": "Check Student Absence (supervisor) (Y-M-D)",
-					"id": "38437969-37abfea6-1c98-4d71-b150-bd28902400cf",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -1023,7 +976,6 @@
 				},
 				{
 					"name": "Check Student Warnings (supervisor)",
-					"id": "38437969-8b88fd56-ac12-452f-b6f3-11a693912eec",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -1075,10 +1027,6 @@
 				},
 				{
 					"name": "Submit Daily Reports (supervisor)",
-					"id": "38437969-248015c0-a7cb-4727-8abe-1e97215dc7b0",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
 					"request": {
 						"auth": {
 							"type": "bearer",
@@ -1123,10 +1071,6 @@
 				},
 				{
 					"name": "Increment Student Absence (supervisor)",
-					"id": "38437969-152c1f45-a24a-4706-be6c-4e41d66eddd4",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
 					"request": {
 						"auth": {
 							"type": "bearer",
@@ -1180,7 +1124,6 @@
 				},
 				{
 					"name": "Search Student By Name(supervisor)",
-					"id": "38437969-077bc87d-cc1c-447a-88ca-e409b395832b",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -1237,10 +1180,6 @@
 				},
 				{
 					"name": "Show All Students(supervisor)",
-					"id": "38437969-46b1197a-12c7-4c41-804c-4cadb05d58c4",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
 					"request": {
 						"auth": {
 							"type": "bearer",
@@ -1285,10 +1224,6 @@
 				},
 				{
 					"name": "Check Student Attendance History(supervisor)",
-					"id": "38437969-dd773d9f-3ae5-43e6-afd5-020be96f2a39",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
 					"request": {
 						"auth": {
 							"type": "bearer",
@@ -1333,10 +1268,6 @@
 				},
 				{
 					"name": "Show Parent Son(parent)",
-					"id": "38437969-d636fbf9-b224-4064-8df2-9b7467c6c2a7",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
 					"request": {
 						"auth": {
 							"type": "bearer",
@@ -1379,18 +1310,13 @@
 					},
 					"response": []
 				}
-			],
-			"id": "38437969-586158e5-bff0-4f59-90a7-cc0c07237dd2"
+			]
 		},
 		{
 			"name": "classes management",
 			"item": [
 				{
 					"name": "Create Classes(supervisor)",
-					"id": "38437969-1803e96b-d2a6-4077-977b-7352d9daf9e3",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
 					"request": {
 						"auth": {
 							"type": "bearer",
@@ -1444,10 +1370,6 @@
 				},
 				{
 					"name": "Show Classes(supervisor)",
-					"id": "38437969-6016544b-a2e6-44aa-a529-751bae84c810",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
 					"request": {
 						"auth": {
 							"type": "bearer",
@@ -1492,10 +1414,6 @@
 				},
 				{
 					"name": "Edit Class(supervisor)",
-					"id": "38437969-1b283ba0-d254-476f-ae0b-91da475435e0",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
 					"request": {
 						"auth": {
 							"type": "bearer",
@@ -1549,10 +1467,6 @@
 				},
 				{
 					"name": "Assign Student To Class(supervisor)",
-					"id": "38437969-e9226edd-ea51-4e3b-a953-560121ffdb46",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
 					"request": {
 						"auth": {
 							"type": "bearer",
@@ -1606,17 +1520,13 @@
 				},
 				{
 					"name": "get all students(dean-supervisor)",
-					"id": "38437969-fc6d56f9-737b-4ffa-b6c5-c26499902002",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
 					"request": {
 						"auth": {
 							"type": "bearer",
 							"bearer": [
 								{
 									"key": "token",
-									"value": "4|pYnioOpwNFL7XWrgl6sdcPZbTGHIldndch3HfqUab3418278",
+									"value": "1|qAWPTpxtSLaReO1K3MxQe47qKzkSvwjsZW4Y4LoP5bb89639",
 									"type": "string"
 								}
 							]
@@ -1653,18 +1563,14 @@
 					"response": []
 				},
 				{
-					"name": "get all teacher classes with their students(teacher)",
-					"id": "38437969-77e0b7cb-798c-485b-a3f5-a8062e672a42",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
+					"name": "get all teacher students(teacher)",
 					"request": {
 						"auth": {
 							"type": "bearer",
 							"bearer": [
 								{
 									"key": "token",
-									"value": "5|tBaJPCTsvf1Bcbek2XzyxLuDf0sqa5hE1avr3IiRa8b8ae12",
+									"value": "2|F7BUVgmoqRB2ErY81WSkH4hnIHkT467NtFtB43II21437fea",
 									"type": "string"
 								}
 							]
@@ -1702,10 +1608,6 @@
 				},
 				{
 					"name": "get all teachers (dean-supervisor)",
-					"id": "38437969-ebd09f23-ba3d-45ad-934d-42f047eacde8",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
 					"request": {
 						"auth": {
 							"type": "noauth"
@@ -1743,10 +1645,6 @@
 				},
 				{
 					"name": "get all supervisors (dean)",
-					"id": "38437969-67634c07-36ce-4c18-9505-0161ce44cb45",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
 					"request": {
 						"auth": {
 							"type": "bearer",
@@ -1791,10 +1689,6 @@
 				},
 				{
 					"name": "get specific student info (super-dean-teacher)",
-					"id": "38437969-e76e8dac-d2b1-4d5c-8eb2-9b3f736a1820",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
 					"request": {
 						"auth": {
 							"type": "bearer",
@@ -1849,10 +1743,6 @@
 				},
 				{
 					"name": "get specific teacher(dean-supervisor)",
-					"id": "38437969-733d2c89-e882-4617-9604-0538cfa92fdf",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
 					"request": {
 						"auth": {
 							"type": "bearer",
@@ -1907,10 +1797,6 @@
 				},
 				{
 					"name": "get all supervisor (dean)",
-					"id": "38437969-4e0e01f7-6de6-422f-a88f-916a827439ea",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
 					"request": {
 						"auth": {
 							"type": "noauth"
@@ -1958,10 +1844,6 @@
 				},
 				{
 					"name": "get user info(general)",
-					"id": "38437969-89898ba3-3479-40cb-8fd7-c7359c87e595",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
 					"request": {
 						"auth": {
 							"type": "bearer",
@@ -2006,10 +1888,6 @@
 				},
 				{
 					"name": "delete any user (dean)",
-					"id": "38437969-b25cf460-3e62-4796-9cd9-1b4b44312cae",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
 					"request": {
 						"auth": {
 							"type": "bearer",
@@ -2063,10 +1941,6 @@
 				},
 				{
 					"name": "get the paginated students (supervisor-dean)",
-					"id": "38437969-0f86b7b9-9efe-4f13-94dc-b24b7370ff0d",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
 					"request": {
 						"auth": {
 							"type": "bearer",
@@ -2111,10 +1985,6 @@
 				},
 				{
 					"name": "delete class(supervisor)",
-					"id": "38437969-ebb1f4b4-6a17-4486-8a4a-c4a05540b3e4",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
 					"request": {
 						"auth": {
 							"type": "noauth"
@@ -2156,10 +2026,6 @@
 				},
 				{
 					"name": "assign Teacher To Class (supervisor)",
-					"id": "38437969-24a2e9b7-f14a-40d9-a81e-d7972e2ce6ba",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
 					"request": {
 						"auth": {
 							"type": "bearer",
@@ -2213,10 +2079,6 @@
 				},
 				{
 					"name": "show subjects(super-dean)",
-					"id": "38437969-0bc483dc-f4b0-4709-a6cc-f2821a466e3f",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
 					"request": {
 						"auth": {
 							"type": "noauth"
@@ -2254,13 +2116,16 @@
 				},
 				{
 					"name": "get class teachers",
-					"id": "38437969-bed5951f-448d-40de-b95b-6f1488770dcf",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
 					"request": {
 						"auth": {
-							"type": "noauth"
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "4|mLwbkDDGATNh5K0gGmeJZtNh9CEnHFkpCvxlyz5t23aeaae4",
+									"type": "string"
+								}
+							]
 						},
 						"method": "POST",
 						"header": [
@@ -2277,7 +2142,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"class_id\": 27\r\n}",
+							"raw": "{\r\n    \"class_id\": 2\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -2304,10 +2169,6 @@
 				},
 				{
 					"name": "unassign teacher to class(supervisor)",
-					"id": "38437969-ae4bf0b8-2b45-45fb-af2f-58620854d2dd",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
 					"request": {
 						"auth": {
 							"type": "noauth"
@@ -2354,10 +2215,6 @@
 				},
 				{
 					"name": "over Write Teacher To Class  (supervisor)",
-					"id": "38437969-fc0c2243-02cc-4bc5-a88e-38bed84b6e50",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
 					"request": {
 						"auth": {
 							"type": "noauth"
@@ -2397,18 +2254,13 @@
 					},
 					"response": []
 				}
-			],
-			"id": "38437969-7b18446a-4603-42c3-bb70-64f6c6633aac"
+			]
 		},
 		{
 			"name": "timetables management",
 			"item": [
 				{
 					"name": "Get Student Weekly Schedule(student)",
-					"id": "38437969-a4fc350d-6b10-4ca3-9ea2-a9ad82de08a5",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
 					"request": {
 						"auth": {
 							"type": "bearer",
@@ -2453,10 +2305,6 @@
 				},
 				{
 					"name": "Create Weekly Schedule(supervisor)",
-					"id": "38437969-d0be377a-03e9-41b8-ab5b-5893886705e1",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
 					"request": {
 						"auth": {
 							"type": "bearer",
@@ -2510,10 +2358,6 @@
 				},
 				{
 					"name": "Upload Exam Schedule(supervisor)",
-					"id": "38437969-971eb8ab-ece9-40b6-9292-6a5977d44fdf",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
 					"request": {
 						"auth": {
 							"type": "bearer",
@@ -2571,18 +2415,13 @@
 					},
 					"response": []
 				}
-			],
-			"id": "38437969-167e09e1-eb15-4695-af2b-7f66d3e06479"
+			]
 		},
 		{
 			"name": "global",
 			"item": [
 				{
 					"name": "Get Info(student)",
-					"id": "38437969-b0ad3b6d-d592-425c-abaf-5e41a8c61fed",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
 					"request": {
 						"auth": {
 							"type": "bearer",
@@ -2625,18 +2464,13 @@
 					},
 					"response": []
 				}
-			],
-			"id": "38437969-e8115a33-9924-40c1-9747-7fffff39e596"
+			]
 		},
 		{
 			"name": "communication",
 			"item": [
 				{
 					"name": "Edit Event",
-					"id": "38437969-9a7daf44-0eda-4ccd-8114-e74ee9e8a577",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
 					"request": {
 						"auth": {
 							"type": "bearer",
@@ -2715,10 +2549,6 @@
 				},
 				{
 					"name": "Delete Event",
-					"id": "38437969-8ec96c98-0840-4067-884b-e22a6fdcc56a",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
 					"request": {
 						"auth": {
 							"type": "noauth"
@@ -2757,10 +2587,6 @@
 				},
 				{
 					"name": "get my events",
-					"id": "38437969-59c1ded4-50ab-446a-9c71-4151cfd00dd3",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
 					"request": {
 						"auth": {
 							"type": "bearer",
@@ -2805,10 +2631,6 @@
 				},
 				{
 					"name": "Get All event's comments",
-					"id": "38437969-4bbc70a9-912e-41b7-b2d9-f923caf58d13",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
 					"request": {
 						"auth": {
 							"type": "bearer",
@@ -2854,10 +2676,6 @@
 				},
 				{
 					"name": "add comment",
-					"id": "38437969-a8ab4bb1-04ea-4bc0-8ce9-4d8e953edce3",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
 					"request": {
 						"auth": {
 							"type": "bearer",
@@ -2922,10 +2740,6 @@
 				},
 				{
 					"name": "Edit Comment",
-					"id": "38437969-711dfaf9-6e8c-4c5c-bfbe-2595fd4aa459",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
 					"request": {
 						"auth": {
 							"type": "bearer",
@@ -2981,10 +2795,6 @@
 				},
 				{
 					"name": "Delete Comment",
-					"id": "38437969-12f2dbed-2e44-4de7-b993-1338a52961f2",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
 					"request": {
 						"auth": {
 							"type": "bearer",
@@ -3030,10 +2840,6 @@
 				},
 				{
 					"name": "Add Event",
-					"id": "38437969-31d55aa0-ee0e-4358-a278-49e24cf2e7b4",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
 					"request": {
 						"auth": {
 							"type": "bearer",
@@ -3108,10 +2914,6 @@
 				},
 				{
 					"name": "Get All Published Events",
-					"id": "38437969-960a82e8-a901-403b-8900-160d8a03cf6e",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
 					"request": {
 						"auth": {
 							"type": "bearer",
@@ -3145,10 +2947,6 @@
 				},
 				{
 					"name": "show reported comments (supervisor)",
-					"id": "38437969-2eff4056-3893-497f-9a7f-136973362038",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
 					"request": {
 						"auth": {
 							"type": "bearer",
@@ -3183,10 +2981,6 @@
 				},
 				{
 					"name": "report a comment",
-					"id": "38437969-1052968c-439c-4726-a460-86514608cfa7",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
 					"request": {
 						"auth": {
 							"type": "bearer",
@@ -3242,10 +3036,6 @@
 				},
 				{
 					"name": "make reaction",
-					"id": "38437969-3c520a19-dc5a-48ce-bb60-01bf4c87cce8",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
 					"request": {
 						"auth": {
 							"type": "bearer",
@@ -3299,10 +3089,6 @@
 				},
 				{
 					"name": "get Reactions",
-					"id": "38437969-74e5026e-08c7-43ed-b681-4c48fc1b88f1",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
 					"request": {
 						"auth": {
 							"type": "bearer",
@@ -3356,10 +3142,6 @@
 				},
 				{
 					"name": "shareEvent",
-					"id": "38437969-4765533b-3c2c-4c18-a983-e2ef69ffc4fc",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
 					"request": {
 						"auth": {
 							"type": "bearer",
@@ -3413,10 +3195,6 @@
 				},
 				{
 					"name": "get supervisor events",
-					"id": "38437969-9ff065f9-4605-4648-aa3c-bf2f323a2d04",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
 					"request": {
 						"auth": {
 							"type": "bearer",
@@ -3463,18 +3241,13 @@
 					},
 					"response": []
 				}
-			],
-			"id": "38437969-491420c1-7e98-4612-b70e-78801737e93f"
+			]
 		},
 		{
 			"name": "marks management",
 			"item": [
 				{
 					"name": "Upload Mark Excel Cheat",
-					"id": "38437969-3f960706-946b-45b4-b8ea-41436275df8d",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
 					"request": {
 						"auth": {
 							"type": "bearer",
@@ -3510,7 +3283,7 @@
 								{
 									"key": "excel_file",
 									"type": "file",
-									"src": "postman-cloud:///1f05d54b-8024-4d40-92dc-23f5d56eaf6e"
+									"src": "postman-cloud:///1f06efd9-f801-4d00-800c-538b42b91d0b"
 								}
 							]
 						},
@@ -3534,10 +3307,6 @@
 				},
 				{
 					"name": "Get All Teacher Info",
-					"id": "38437969-32255d06-52e0-44b0-9005-49406d571803",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
 					"request": {
 						"auth": {
 							"type": "bearer",
@@ -3582,10 +3351,6 @@
 				},
 				{
 					"name": "Student Get Result",
-					"id": "38437969-3a71f0bf-3175-41b0-bb4f-5345c7319e90",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
 					"request": {
 						"auth": {
 							"type": "bearer",
@@ -3639,10 +3404,6 @@
 				},
 				{
 					"name": "get Empty Excel Cheat For Marks",
-					"id": "38437969-59782f24-70a1-4fa3-837a-8ab07ac45be9",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
 					"request": {
 						"auth": {
 							"type": "bearer",
@@ -3669,16 +3430,16 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n\r\n\"classID\": 3,\r\n\"semester\": \"Second\",\r\n\"type\": \"mid-term\"\r\n\r\n\r\n\r\n\r\n}"
+							"raw": "{\r\n\r\n\"classID\": 3,\r\n\"semester\": \"First\",\r\n\"type\": \"final\"\r\n}"
 						},
 						"url": {
-							"raw": "http://26.131.177.200:8000/api/getEmptyExcelCheatForMarks",
+							"raw": "http://127.0.0.1:8000/api/getEmptyExcelCheatForMarks",
 							"protocol": "http",
 							"host": [
-								"26",
-								"131",
-								"177",
-								"200"
+								"127",
+								"0",
+								"0",
+								"1"
 							],
 							"port": "8000",
 							"path": [
@@ -3691,10 +3452,6 @@
 				},
 				{
 					"name": "get Marks Profile ",
-					"id": "38437969-8c73fe70-4b21-4dd7-a825-54d1f087ee80",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
 					"request": {
 						"auth": {
 							"type": "bearer",
@@ -3743,10 +3500,6 @@
 				},
 				{
 					"name": "get Class Marks (teacher)",
-					"id": "38437969-b37a09b4-fc9f-4023-a140-064e18971123",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
 					"request": {
 						"auth": {
 							"type": "bearer",
@@ -3793,25 +3546,20 @@
 					},
 					"response": []
 				}
-			],
-			"id": "38437969-4701e63d-99c0-4376-ac90-be711c917224"
+			]
 		},
 		{
 			"name": "library management",
 			"item": [
 				{
 					"name": "create book",
-					"id": "38437969-c7ab3aad-307f-4820-a3de-97a1b01a0490",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
 					"request": {
 						"auth": {
 							"type": "bearer",
 							"bearer": [
 								{
 									"key": "token",
-									"value": "4|mLwbkDDGATNh5K0gGmeJZtNh9CEnHFkpCvxlyz5t23aeaae4",
+									"value": "2|F7BUVgmoqRB2ErY81WSkH4hnIHkT467NtFtB43II21437fea",
 									"type": "string"
 								}
 							]
@@ -3848,8 +3596,8 @@
 									"type": "text"
 								},
 								{
-									"key": "serial_number",
-									"value": "00003",
+									"key": "serrial_number",
+									"value": "00005",
 									"type": "text"
 								},
 								{
@@ -3884,10 +3632,6 @@
 				},
 				{
 					"name": "update book",
-					"id": "38437969-1d46eb33-850d-442c-813a-cb6ac256a750",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
 					"request": {
 						"auth": {
 							"type": "noauth"
@@ -3966,10 +3710,6 @@
 				},
 				{
 					"name": "delete book",
-					"id": "38437969-e391c291-fdab-4a15-b314-60c2ecf04c03",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
 					"request": {
 						"auth": {
 							"type": "bearer",
@@ -4015,17 +3755,13 @@
 				},
 				{
 					"name": "borrow book",
-					"id": "38437969-21443245-97d0-43dc-ba14-ef96552a776b",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
 					"request": {
 						"auth": {
 							"type": "bearer",
 							"bearer": [
 								{
 									"key": "token",
-									"value": "{{supervisor_token}}",
+									"value": "4|mLwbkDDGATNh5K0gGmeJZtNh9CEnHFkpCvxlyz5t23aeaae4",
 									"type": "string"
 								}
 							]
@@ -4045,13 +3781,18 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "\r\n{\r\n  \"serrial_number\": \"649528821553\"\r\n}"
+							"raw": "\r\n{\r\n  \"serrial_number\": \"00004\"\r\n}"
 						},
 						"url": {
-							"raw": "{{baseURL}}/api/borrow",
+							"raw": "http://26.131.177.200:8000/api/borrow",
+							"protocol": "http",
 							"host": [
-								"{{baseURL}}"
+								"26",
+								"131",
+								"177",
+								"200"
 							],
+							"port": "8000",
 							"path": [
 								"api",
 								"borrow"
@@ -4062,17 +3803,13 @@
 				},
 				{
 					"name": "modify the borrowing",
-					"id": "38437969-b87ce958-8577-4032-95d1-c95efc4b3279",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
 					"request": {
 						"auth": {
 							"type": "bearer",
 							"bearer": [
 								{
 									"key": "token",
-									"value": "{{supervisor_token}}",
+									"value": "4|mLwbkDDGATNh5K0gGmeJZtNh9CEnHFkpCvxlyz5t23aeaae4",
 									"type": "string"
 								}
 							]
@@ -4095,7 +3832,7 @@
 							"formdata": [
 								{
 									"key": "borrow_id",
-									"value": "",
+									"value": "10",
 									"type": "text"
 								},
 								{
@@ -4104,13 +3841,8 @@
 									"type": "text"
 								},
 								{
-									"key": "borrow_date",
-									"value": "2025-7-22",
-									"type": "text"
-								},
-								{
 									"key": "due_date",
-									"value": "2025-7-25",
+									"value": "2025-8-5",
 									"type": "text"
 								},
 								{
@@ -4131,10 +3863,15 @@
 							]
 						},
 						"url": {
-							"raw": "{{baseURL}}/api/modifyBorrow",
+							"raw": "http://26.131.177.200:8000/api/modifyBorrow",
+							"protocol": "http",
 							"host": [
-								"{{baseURL}}"
+								"26",
+								"131",
+								"177",
+								"200"
 							],
+							"port": "8000",
 							"path": [
 								"api",
 								"modifyBorrow"
@@ -4145,17 +3882,13 @@
 				},
 				{
 					"name": "show the books",
-					"id": "38437969-c1ed921f-5ba1-4adc-adfa-40836689bfd2",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
 					"request": {
 						"auth": {
 							"type": "bearer",
 							"bearer": [
 								{
 									"key": "token",
-									"value": "{{supervisor_token}}",
+									"value": "2|F7BUVgmoqRB2ErY81WSkH4hnIHkT467NtFtB43II21437fea",
 									"type": "string"
 								}
 							]
@@ -4174,10 +3907,15 @@
 							}
 						],
 						"url": {
-							"raw": "{{baseURL}}/api/showBooks",
+							"raw": "http://26.131.177.200:8000/api/showBooks",
+							"protocol": "http",
 							"host": [
-								"{{baseURL}}"
+								"26",
+								"131",
+								"177",
+								"200"
 							],
+							"port": "8000",
 							"path": [
 								"api",
 								"showBooks"
@@ -4188,17 +3926,13 @@
 				},
 				{
 					"name": "show book by serrial number ",
-					"id": "38437969-c0efb894-78bc-40d3-b967-e29123b83ca8",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
 					"request": {
 						"auth": {
 							"type": "bearer",
 							"bearer": [
 								{
 									"key": "token",
-									"value": "2|F7BUVgmoqRB2ErY81WSkH4hnIHkT467NtFtB43II21437fea",
+									"value": "4|mLwbkDDGATNh5K0gGmeJZtNh9CEnHFkpCvxlyz5t23aeaae4",
 									"type": "string"
 								}
 							]
@@ -4245,17 +3979,13 @@
 				},
 				{
 					"name": "showBookBorrowers",
-					"id": "38437969-bd10973c-64a7-42f0-a944-94ac597878b3",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
 					"request": {
 						"auth": {
 							"type": "bearer",
 							"bearer": [
 								{
 									"key": "token",
-									"value": "{{supervisor_token}}",
+									"value": "4|mLwbkDDGATNh5K0gGmeJZtNh9CEnHFkpCvxlyz5t23aeaae4",
 									"type": "string"
 								}
 							]
@@ -4275,7 +4005,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"serrial_number\": \"649528821553\"\r\n}",
+							"raw": "{\r\n    \"serrial_number\": \"00003\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -4283,10 +4013,15 @@
 							}
 						},
 						"url": {
-							"raw": "{{baseURL}}/api/showBookBorrowers",
+							"raw": "http://26.131.177.200:8000/api/showBookBorrowers",
+							"protocol": "http",
 							"host": [
-								"{{baseURL}}"
+								"26",
+								"131",
+								"177",
+								"200"
 							],
+							"port": "8000",
 							"path": [
 								"api",
 								"showBookBorrowers"
@@ -4297,22 +4032,18 @@
 				},
 				{
 					"name": "get Borrow Order",
-					"id": "38437969-208e523a-46c1-4be2-a513-69d41a0fc2b4",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
 					"request": {
 						"auth": {
 							"type": "bearer",
 							"bearer": [
 								{
 									"key": "token",
-									"value": "{{supervisor_token}}",
+									"value": "4|mLwbkDDGATNh5K0gGmeJZtNh9CEnHFkpCvxlyz5t23aeaae4",
 									"type": "string"
 								}
 							]
 						},
-						"method": "POST",
+						"method": "GET",
 						"header": [
 							{
 								"key": "Content-Type",
@@ -4325,15 +4056,16 @@
 								"type": "text"
 							}
 						],
-						"body": {
-							"mode": "raw",
-							"raw": "\r\n{\r\n  \"serrial_number\": \"12345\"\r\n}"
-						},
 						"url": {
-							"raw": "{{baseURL}}/api/getBorrowOrder",
+							"raw": "http://26.131.177.200:8000/api/getBorrowOrder",
+							"protocol": "http",
 							"host": [
-								"{{baseURL}}"
+								"26",
+								"131",
+								"177",
+								"200"
 							],
+							"port": "8000",
 							"path": [
 								"api",
 								"getBorrowOrder"
@@ -4342,18 +4074,13 @@
 					},
 					"response": []
 				}
-			],
-			"id": "38437969-69563840-5202-445c-bbb5-d959dab4abb2"
+			]
 		},
 		{
 			"name": "subjects management",
 			"item": [
 				{
 					"name": "create subject (supervisor)",
-					"id": "38437969-7ba33964-010c-4f73-b8d5-3f3c13b4ce07",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
 					"request": {
 						"auth": {
 							"type": "noauth"
@@ -4400,10 +4127,6 @@
 				},
 				{
 					"name": "get all the subjects (supervisor)",
-					"id": "38437969-f218b485-112a-4fd4-83f5-557535541a3f",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
 					"request": {
 						"auth": {
 							"type": "noauth"
@@ -4441,7 +4164,6 @@
 				},
 				{
 					"name": "get subject by id (supervisor)",
-					"id": "38437969-e85a8069-dfdb-4bdb-a148-d15c128f0014",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -4491,10 +4213,6 @@
 				},
 				{
 					"name": "update  subject  (supervisor)",
-					"id": "38437969-eaf00c9a-4309-4585-ad2c-7bcc196a5f9c",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
 					"request": {
 						"auth": {
 							"type": "noauth"
@@ -4541,10 +4259,6 @@
 				},
 				{
 					"name": "delete subject (supervisor)",
-					"id": "38437969-698d27dc-4321-47d0-af04-1dbd88227bc4",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
 					"request": {
 						"auth": {
 							"type": "noauth"
@@ -4584,18 +4298,13 @@
 					},
 					"response": []
 				}
-			],
-			"id": "38437969-8565e7f9-3bcc-43b0-9059-98cd65ed00f7"
+			]
 		},
 		{
 			"name": "permission management",
 			"item": [
 				{
 					"name": "assign permission",
-					"id": "38437969-1e54dc20-364d-4c2f-bf15-1419c9fef9e7",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
 					"request": {
 						"auth": {
 							"type": "bearer",
@@ -4642,8 +4351,329 @@
 					},
 					"response": []
 				}
-			],
-			"id": "38437969-7462b8e9-0fe7-4844-8805-bf75ce1062d2"
+			]
+		},
+		{
+			"name": "complaints management",
+			"item": [
+				{
+					"name": "add complaint",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "3|QHDWIhQvIV4e0NQLKbVk7cTpY8XLet93V75h18JS00da4827",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "\r\n{\r\n  \"complaint\": \" i like to eat in the class\",\r\n  \"category\": \"academic\"\r\n}"
+						},
+						"url": {
+							"raw": "http://26.131.177.200:8000/api/addComplaint",
+							"protocol": "http",
+							"host": [
+								"26",
+								"131",
+								"177",
+								"200"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"addComplaint"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update complaint",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "3|QHDWIhQvIV4e0NQLKbVk7cTpY8XLet93V75h18JS00da4827",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "\r\n{\r\n  \"complaint_id\": 2,\r\n  \"complaint\": \"the teacher is worthless\",\r\n  \"category\": \"academic\"\r\n}"
+						},
+						"url": {
+							"raw": "http://26.131.177.200:8000/api/updateComplaint",
+							"protocol": "http",
+							"host": [
+								"26",
+								"131",
+								"177",
+								"200"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"updateComplaint"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get my complaints",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "3|QHDWIhQvIV4e0NQLKbVk7cTpY8XLet93V75h18JS00da4827",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://26.131.177.200:8000/api/getMyComplaints",
+							"protocol": "http",
+							"host": [
+								"26",
+								"131",
+								"177",
+								"200"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"getMyComplaints"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get  all complaints for dean",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "1|qAWPTpxtSLaReO1K3MxQe47qKzkSvwjsZW4Y4LoP5bb89639",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"withTrash\": \"yes\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://26.131.177.200:8000/api/getAllComplaints",
+							"protocol": "http",
+							"host": [
+								"26",
+								"131",
+								"177",
+								"200"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"getAllComplaints"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "modify complaint for dean",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "1|qAWPTpxtSLaReO1K3MxQe47qKzkSvwjsZW4Y4LoP5bb89639",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"complaint_id\": 2,\r\n    \"status\": \"processing\",\r\n    \"priority\": \"low\",\r\n    \"notes\": \"it is not important in the right time\"\r\n}"
+						},
+						"url": {
+							"raw": "http://26.131.177.200:8000/api/modifyComplaint",
+							"protocol": "http",
+							"host": [
+								"26",
+								"131",
+								"177",
+								"200"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"modifyComplaint"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete my complaint",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "4|mLwbkDDGATNh5K0gGmeJZtNh9CEnHFkpCvxlyz5t23aeaae4",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://26.131.177.200:8000/api/deleteComplaint/2",
+							"protocol": "http",
+							"host": [
+								"26",
+								"131",
+								"177",
+								"200"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"deleteComplaint",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "soft delete for the dean",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "1|qAWPTpxtSLaReO1K3MxQe47qKzkSvwjsZW4Y4LoP5bb89639",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"complaint_ids\": []\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://26.131.177.200:8000/api/softDeleteComplaint",
+							"protocol": "http",
+							"host": [
+								"26",
+								"131",
+								"177",
+								"200"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"softDeleteComplaint"
+							]
+						}
+					},
+					"response": []
+				}
+			]
 		}
 	]
 }
